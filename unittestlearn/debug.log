@@ -1,0 +1,5 @@
+[0407/124818.538:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir26964_1620\Crashpad: The system cannot find the file specified. (0x2)
+[0407/125027.775:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir1580_17\Crashpad: The system cannot find the file specified. (0x2)
+[0407/125108.339:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir5504_15027\Crashpad: The system cannot find the file specified. (0x2)
+[0407/125141.659:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir27464_24178\Crashpad: The system cannot find the file specified. (0x2)
+[0407/125144.866:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir27248_8766\Crashpad: The system cannot find the file specified. (0x2)

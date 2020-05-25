@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eb499b7-1fbe-4921-b3ca-0e69d56fa0d7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unittestlearn" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aCZNJoQkU97K5gNw6T8PH5Qxxv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Multibrowser">
+    <configuration name="LoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Appian_JNJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Appian_JNJ/Pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Appian_JNJ/Pages/LoginPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Multibrowser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Learn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Learn/Multibrowser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Appian_JNJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Appian_JNJ/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Appian_JNJ/TestCases/test_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utilities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Appian_JNJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Appian_JNJ/Utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Appian_JNJ/Utilities/utilities.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_login.Logintest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Appian_JNJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Appian_JNJ/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.Logintest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Multibrowser" />
+        <item itemvalue="Python.test_login" />
+        <item itemvalue="Python tests.Unittests for test_login.Logintest" />
+        <item itemvalue="Python.LoginPage" />
+        <item itemvalue="Python.utilities" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eb499b7-1fbe-4921-b3ca-0e69d56fa0d7" name="Default Changelist" comment="" />
+      <created>1586241494989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586241494989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="5" width="816" height="723" key="#Intentions" timestamp="1587725875239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" width="816" height="723" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1587725875239" />
+    <state x="274" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588249722188">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588249722188" />
+    <state x="442" y="206" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1587212561057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="206" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1587212561057" />
+    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1587212556071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587212556071" />
+    <state width="1345" height="150" key="GridCell.Tab.0.bottom" timestamp="1588602306276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588602306276" />
+    <state width="1345" height="150" key="GridCell.Tab.0.center" timestamp="1588602306276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588602306276" />
+    <state width="1345" height="150" key="GridCell.Tab.0.left" timestamp="1588602306276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588602306276" />
+    <state width="1345" height="150" key="GridCell.Tab.0.right" timestamp="1588602306276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588602306276" />
+    <state x="450" y="10" width="916" height="709" key="SettingsEditor" timestamp="1588601582636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="10" width="916" height="709" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588601582636" />
+    <state x="651" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1588594871286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="651" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588594871286" />
+    <state x="712" y="0" width="585" height="728" key="find.popup" timestamp="1586241740539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="712" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586241740539" />
+    <state x="424" y="12" key="refactoring.ChangeSignatureDialog" timestamp="1587383332237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="12" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1587383332237" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587375416446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587375416446" />
+  </component>
+</project>

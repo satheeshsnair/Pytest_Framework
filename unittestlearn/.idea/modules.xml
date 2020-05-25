@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Appian_JNJ/.idea/Appian_JNJ.iml" filepath="$PROJECT_DIR$/../Appian_JNJ/.idea/Appian_JNJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Learn/.idea/Learn.iml" filepath="$PROJECT_DIR$/../Learn/.idea/Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Unittestlearn.iml" filepath="$PROJECT_DIR$/.idea/Unittestlearn.iml" />
+    </modules>
+  </component>
+</project>
