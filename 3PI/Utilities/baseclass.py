@@ -12,10 +12,10 @@ from selenium.webdriver.support.select import Select
 @pytest.mark.usefixtures("setup")
 class Baseclass:
 
-    def verifylinkpresent(self,text):
-        element = WebDriverWait(self.driver,10).until(EC.presence_of_element_located((By.LINK_TEXT,text)))
+    def verifylinkpresent(self, text):
+        element = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.LINK_TEXT, text)))
 
-    def selectOptionByText(self,locator,text):
+    def selectOptionByText(self, locator, text):
         select = Select(locator)
         # select = Select(WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator)))
         select.select_by_visible_text(text)
@@ -38,7 +38,7 @@ class Baseclass:
         # logger.critical("crictical error")
         return logger
 
-    def getdata(self,Testcasename,Methodname):
+    def getdata(self, Testcasename, Methodname):
         book = openpyxl.load_workbook("C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\Testdata\\Testdata.xlsx")
         sheet = book.active
         rows = sheet.max_row
@@ -51,4 +51,7 @@ class Baseclass:
                     methodname = sheet.cell(row=row, column=col + 1).value
                     if (methodname == Methodname):
                         value = sheet.cell(row=row, column=col + 2).value
-                        return(value)
+                        return (value)
+
+    def clickbutton(self, locator):
+        self.driver.find_element_by_xpath(locator).click()

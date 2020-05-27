@@ -38,11 +38,6 @@ class TestE2e(Baseclass):
     def test_selectOrderType(self):
         log = self.getLogger()
         createreq = CreateReq(self.driver)
-        self.waits()
         createreq.selectOrdertype()
-        # self.selectOptionByText(createreq.selectOrdertype(),"Server")
         log.info("Selected Dropdown option")
-        # self.selectOptionByText(createreq.selectOrdertype(),"Server")
-        # paths = self.driver.find_element_by_xpath("//div[@class='DropdownWidget---dropdown_value DropdownWidget---placeholder']")
-        # sel = Select(paths)
-        # sel.select_by_visible_text("Server")
+        # createreq.clicknext()
