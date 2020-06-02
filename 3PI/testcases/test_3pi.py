@@ -3,8 +3,11 @@ import pytest
 from Utilities.baseclass import Baseclass
 from pageObjects.Actionstab import ActionsTab
 from pageObjects.CreateRequestPage import CreateReq
+from pageObjects.Financial_Info import Financial_Info
 from pageObjects.Loginpage import LoginPage
 from pageObjects.Newstab import NewsTab
+from pageObjects.OrderDetails import Orderdetails
+from pageObjects.OrderInfo import Orderinfo
 from pageObjects.Shipto import Shipto
 
 
@@ -41,43 +44,45 @@ class TestE2e(Baseclass):
         assert title == "Generate Order Request"
         log.info("Clicked on 3PI Submit Order Request")
 
-    def test_selectOrderType(self):
+    def test_orderinfo(self):
         log = self.getLogger()
-        createreq = CreateReq(self.driver)
-        createreq.selectOrdertype()
-        log.info("Selected Dropdown option")
-        createreq.clicknext()
-        self.waits(3)
+        orderinfo = Orderinfo(self.driver)
+        orderinfo.selectOrdertype()
+        orderinfo.clicknext()
+        self.waits(2)
         title = self.driver.title
         assert title == "Submit Order Server"
-        createreq.clicknext()
-        self.waits(3)
-        log.info("Navigated to project page ")
+        orderinfo.clicknext()
+        self.waits(1)
+        log.info("Navigated to Order details page")
 
-    def test_Orderdetails(self):
+    def test_OrderDetails(self):
         log = self.getLogger()
-        createreq = CreateReq(self.driver)
-        createreq.project()
-        self.waits(3)
+        orderdetails = Orderdetails(self.driver)
+        orderdetails.project()
+        self.waits(1)
+        orderdetails.select_project()
         title = self.driver.title
         assert title == "Submit Order Server"
-        createreq.clicknext()
-        self.waits(3)
         log.info("Navigated to Financial info")
 
-    def test_projectinfo(self):
+    def test_financial(self):
         log = self.getLogger()
-        createreq = CreateReq(self.driver)
-        createreq.prjinfo()
-        log.info("Entered all data")
-        createreq.clicknext()
-        self.waits(1)
+        finance = Financial_Info(self.driver)
+        finance.country_name()
+        finance.capital_amt()
+        finance.expense_amount()
+        finance.quote_nmbr()
+        finance.supplier_name()
+        finance.upload_file()
+        finance.click_next()
+        self.waits(2)
         title = self.driver.title
         assert title == "Submit Order Server"
         self.waits(1)
         log.info("Navigated to Ship to page")
 
-    def ship_to(self):
+    def test_ship_to(self):
         log = self.getLogger()
         shipto = Shipto(self.driver)
         shipto.ship_material()

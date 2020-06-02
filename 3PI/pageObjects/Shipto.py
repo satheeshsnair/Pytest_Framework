@@ -26,28 +26,36 @@ class Shipto(Baseclass):
         self.clickbutton(self.jnj_emp_no)
 
     def recipient(self):
-        self.driver.find_element_by_xpath(self.recipient_name).getdata("test_shipto", "Recipient")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.recipient_name).send_keys(self.getdata("test_shipto", "Recipient"))
 
     def emailid(self):
-        self.driver.find_element_by_xpath(self.email).getdata("test_shipto", "Email")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.email).send_keys(self.getdata("test_shipto", "Email"))
 
     def officephone(self):
-        self.driver.find_element_by_xpath(self.office_Phone).getdata("test_shipto", "Office_phone")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.office_Phone).send_keys(self.getdata("test_shipto", "Office_phone"))
 
     def expecteddate(self):
-        self.driver.find_element_by_xpath(self.expected_date).getdata("test_shipto", "Expected_date")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.expected_date).send_keys(self.getdata("test_shipto", "Expected_date"))
 
     def regions(self):
-        self.driver.find_element_by_xpath(self.region).getdata("test_shipto", "Region")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.region).send_keys(self.getdata("test_shipto", "Region"))
 
     def country_ship(self):
-        self.driver.find_element_by_xpath(self.region).getdata("test_shipto", "Country_Ship")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.region).send_keys(self.getdata("test_shipto", "Country_Ship"))
 
     def site(self):
-        self.driver.find_element_by_xpath(self.region).getdata("test_shipto", "Site_location")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.region).send_keys(self.getdata("test_shipto", "Site_location"))
 
     def street(self):
-        self.driver.find_element_by_xpath(self.region).getdata("test_shipto", "Street")
+        self.waits(1)
+        self.driver.find_element_by_xpath(self.region).send_keys(self.getdata("test_shipto", "Street"))
 
     def clicknext(self):
         self.waits(1)
