@@ -3,7 +3,11 @@ import logging
 import openpyxl
 import pytest
 import time
+
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
@@ -20,8 +24,8 @@ class Baseclass:
         # select = Select(WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator)))
         select.select_by_visible_text(text)
 
-    def waits(self):
-        time.sleep(4)
+    def waits(self,wait_time):
+        time.sleep(wait_time)
 
     def getLogger(self):
         loggername = inspect.stack()[1][3]
@@ -55,3 +59,23 @@ class Baseclass:
 
     def clickbutton(self, locator):
         self.driver.find_element_by_xpath(locator).click()
+
+    def get_list_data(self,locator,testcase,method):
+        self.driver.find_element_by_xpath(locator).click()
+        self.waits(2)
+        self.driver.find_element_by_xpath(locator).send_keys(self.getdata(testcase, method))
+        self.waits(2)
+        actions = ActionChains(self.driver)
+        actions.send_keys(Keys.ENTER)
+        self.waits(0.5)
+        actions.perform()
+        self.waits(2)
+
+    def uploadfile(self,locator,path):
+        try:
+            file = self.driver.find_element_by_xpath(locator)
+            self.waits(2)
+            file.send_keys(path)
+            self.waits(2)
+        except NoSuchElementException:
+            print("Element not found")

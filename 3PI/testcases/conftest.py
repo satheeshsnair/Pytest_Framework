@@ -15,7 +15,7 @@ def setup(request):
     if browser_name == "chrome":
         driver = webdriver.Chrome(executable_path="C:\\Users\\satheeshnair\\Desktop\\infocampus\\SourceCode\\AppianJJ\\configuration\\Drivers\\chromedriver.exe")
     elif browser_name == 'ie':
-        driver = webdriver.Ie(executable_path="C:\\Users\\satheeshnair\\Desktop\\infocampus\jars\\IEDriverServer.exe")
+        driver = webdriver.Ie(executable_path="C:\\Users\\satheeshnair\\Desktop\\infocampus\\SourceCode\\AppianJJ\\configuration\\Drivers\\IEDriverServer.exe")
 
     driver.get('https://jnjtest.appiancloud.com/suite/portal/login.jsp')
     driver.maximize_window()
