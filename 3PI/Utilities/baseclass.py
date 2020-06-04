@@ -27,10 +27,15 @@ class Baseclass:
     def waits(self,wait_time):
         time.sleep(wait_time)
 
+    def expli_wait(self,locator):
+        wait = WebDriverWait(self.driver, 20)
+        element = wait.until(EC.presence_of_element_located((By.XPATH, locator)))
+
     def getLogger(self):
         loggername = inspect.stack()[1][3]
         logger = logging.getLogger(loggername)
-        filehandler = logging.FileHandler('logfile.log')
+        filepath = "C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\Log"
+        filehandler = logging.FileHandler(filepath + '\\logfile.log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         filehandler.setFormatter(formatter)
         logger.addHandler(filehandler)
@@ -79,3 +84,9 @@ class Baseclass:
             self.waits(2)
         except NoSuchElementException:
             print("Element not found")
+
+    def snaps_pass(self):
+        print("f")
+
+    def snaps_fail(self):
+        print("f")

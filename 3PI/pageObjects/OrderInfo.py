@@ -12,7 +12,7 @@ class Orderinfo(Baseclass):
         self.driver = driver
 
     def selectOrdertype(self):
-        self.waits(10)
+        self.expli_wait(self.ordertype)
         try:
             self.get_list_data(self.ordertype, "test_order", "order")
         except NoSuchElementException:

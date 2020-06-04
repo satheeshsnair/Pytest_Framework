@@ -15,23 +15,29 @@ class Financial_Info(Baseclass):
         self.driver = driver
 
     def country_name(self):
-         self.get_list_data(self.country, "test_projectinfo", "country")
+        self.expli_wait(self.country)
+        self.get_list_data(self.country, "test_projectinfo", "country")
 
     def capital_amt(self):
+        self.expli_wait(self.capital)
         self.driver.find_element_by_xpath(self.capital).send_keys(self.getdata("test_projectinfo", "Capital Amount"))
 
     def expense_amount(self):
+        self.expli_wait(self.expense)
         self.driver.find_element_by_xpath(self.expense).send_keys(self.getdata("test_projectinfo", "Expense Amount"))
 
     def quote_nmbr(self):
+        self.expli_wait(self.quote)
         self.driver.find_element_by_xpath(self.quote).send_keys(self.getdata("test_projectinfo", "Quote Number"))
-        self.waits(2)
 
     def supplier_name(self):
+        self.expli_wait(self.supplier)
         self.get_list_data(self.supplier, "test_projectinfo", "Supplier")
 
     def upload_file(self):
+        self.expli_wait(self.upload)
         self.uploadfile(self.upload, self.getdata("test_projectinfo", "path"))
+        self.waits(2)
 
     def click_next(self):
         self.driver.find_element_by_xpath(self.nextbutton).click()

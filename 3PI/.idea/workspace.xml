@@ -4,8 +4,13 @@
     <list default="true" id="9c2ef94c-9d1b-4f8c-b08f-7529fc06eabd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/Testdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/baseclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/baseclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/Financial_Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Financial_Info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/OrderDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/OrderDetails.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/OrderInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/OrderInfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObjects/Shipto.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Shipto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_3pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_3pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testetstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testetstest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,13 +242,13 @@
       <item itemvalue="Python.Multibrowser" />
       <item itemvalue="Python.conftest" />
       <item itemvalue="Python.testetstest" />
-      <item itemvalue="Python tests.pytest in test_3pi.py" />
       <item itemvalue="Python.Shipto" />
+      <item itemvalue="Python tests.pytest in test_3pi.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Shipto" />
         <item itemvalue="Python.testetstest" />
+        <item itemvalue="Python.Shipto" />
         <item itemvalue="Python.CreateRequestPage" />
         <item itemvalue="Python.Multibrowser" />
         <item itemvalue="Python.conftest" />
@@ -282,13 +287,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591094708430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
+      <created>1591100444705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591100444705</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
+      <created>1591100499710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591100499710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change in SelectOrder Code" />
     <MESSAGE value="Updated codes in Financial page.&#10;added new test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated codes in Financial page.&#10;added new test cases" />
+    <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#Shipto" timestamp="1591094617015">
@@ -307,10 +327,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="603" y="96" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590501942816" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591094704280">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591273295731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591094704280" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591273295731" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591083650049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -319,64 +339,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590491148169" />
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591100249307">
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591272792592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591100249307" />
-    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591100249306">
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591272792592" />
+    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591272792592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591100249306" />
-    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591100249306">
+    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591272792592" />
+    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591272792592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591100249306" />
-    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591100249306">
+    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591272792592" />
+    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591272792592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591100249306" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591098995990">
+    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591272792592" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591264923496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591098995990" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1591098995990">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591264923496" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1591264923496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591098995990" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1591098995990">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591264923496" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1591264923496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591098995990" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1591098995990">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591264923496" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1591264923496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591098995990" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591264923496" />
     <state x="359" y="0" key="SettingsEditor" timestamp="1591020010701">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="359" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591020010701" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591094678020">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591100447901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591094678020" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591084037651">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591100447901" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591256479410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591084037651" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591256479410" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591273279315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591273279315" />
     <state x="254" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590587779754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="254" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1590587779754" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcases/test_3pi.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
