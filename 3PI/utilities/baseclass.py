@@ -89,7 +89,7 @@ class Baseclass:
 
     def write_to_excel(self,Testcasename,Methodname,order_number):
         # path = "C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\testdata\\testdata.xlsx"
-        path = openpyxl.load_workbook("../testdata/Testdata.xlsx")
+        path = "../testdata/Testdata.xlsx"
         wb = openpyxl.load_workbook(path)
         sheet = wb.active
         rows = sheet.max_row

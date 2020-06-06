@@ -3,21 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2ef94c-9d1b-4f8c-b08f-7529fc06eabd" name="Default Changelist" comment="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/Testdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/baseclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/baseclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Actionstab.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Actionstab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/CreateRequestPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Financial_Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Financial_Info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Newstab.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Newstab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/OrderDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/OrderDetails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/OrderInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/OrderInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Shipto.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Shipto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Actions Tab displayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Actions Tab displayed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Entered all the required data in Financial info page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Entered all the required data in Financial info page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Entered data in Financial info tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Entered data in Financial info tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Navigated to Financial info.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigated to Financial info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Navigated to Ship to page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigated to Ship to page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Navigating to Review page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigating to Review page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Order details entered.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order details entered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Order has been submitted successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order has been submitted successfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Order type selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order type selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Order type.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Project selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Project selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Pass/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/login.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_3pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_3pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/Testdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testetstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testetstest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/baseclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/baseclass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/3PI_JJ.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/misc.xml" beforeDir="false" />
@@ -2545,15 +2547,30 @@
       <option name="project" value="LOCAL" />
       <updated>1591273391283</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
+      <created>1591435052825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591435052825</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Driver added, Snap shots added">
+      <created>1591435119645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591435119645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change in SelectOrder Code" />
     <MESSAGE value="Updated codes in Financial page.&#10;added new test cases" />
-    <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
     <MESSAGE value="Added new test case&#10;Added new code to existing project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new test case&#10;Added new code to existing project" />
+    <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
+    <MESSAGE value="Driver added, Snap shots added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Driver added, Snap shots added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#Shipto" timestamp="1591094617015">
@@ -2572,10 +2589,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="603" y="96" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590501942816" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591273386652">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591448123751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591273386652" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591448123751" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591083650049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2584,38 +2601,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590491148169" />
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591434968860">
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591447788680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591434968860" />
-    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591434968860">
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591447788680" />
+    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591447788680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591434968860" />
-    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591434968860">
+    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591447788680" />
+    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591447788680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591434968860" />
-    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591434968860">
+    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591447788680" />
+    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591447788680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591434968860" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591367919395">
+    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591447788680" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591447766989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591367919395" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1591367919395">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591447766989" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1591447766988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591367919395" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1591367919395">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591447766988" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1591447766988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591367919395" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1591367919395">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591447766988" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1591447766988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591367919395" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591447766988" />
     <state x="359" y="0" key="SettingsEditor" timestamp="1591421032914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,4 +1,5 @@
 import time
+import subprocess
 
 import pytest
 from selenium import webdriver
@@ -29,3 +30,4 @@ def setup(request):
     yield
     time.sleep(2)
     driver.close()
+    subprocess.call("taskkill /f /IM chromedriver.exe")
