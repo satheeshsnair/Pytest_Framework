@@ -1,7 +1,10 @@
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
+from utilities.baseclass import Baseclass
 
-class NewsTab:
+
+class NewsTab(Baseclass):
 
     def __init__(self,driver):
         self.driver = driver
@@ -12,4 +15,9 @@ class NewsTab:
     taskstab   = (By.XPATH,"//div[contains(text(),'Tasks')]")
 
     def clickonActiontab(self):
-        self.driver.find_element(*NewsTab.actionstab).click()
+        log = self.getLogger()
+        try:
+            self.driver.find_element(*NewsTab.actionstab).click()
+            log.info("Clicked on Action Tab")
+        except Exception as error:
+            log.error(error)

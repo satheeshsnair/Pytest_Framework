@@ -1,7 +1,7 @@
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
-from Utilities.baseclass import Baseclass
-
+from utilities.baseclass import Baseclass
 
 class LoginPage(Baseclass):
 
@@ -16,12 +16,27 @@ class LoginPage(Baseclass):
     # ********************Functions*****************#
 
     def getusername(self):
-        self.driver.find_element(*LoginPage.username).send_keys(self.getdata("test_login","Username"))
-        self.waits(2)
+        log = self.getLogger()
+        try:
+            self.driver.find_element(*LoginPage.username).clear()
+            self.driver.find_element(*LoginPage.username).send_keys(self.getdata("test_login","Username"))
+            log.info("Username entered")
+        except Exception as error:
+            log.error(error)
 
     def getpassword(self):
-        self.driver.find_element(*LoginPage.password).clear()
-        self.driver.find_element(*LoginPage.password).send_keys(self.getdata("test_login", "Password"))
+        log = self.getLogger()
+        try:
+            self.driver.find_element(*LoginPage.password).clear()
+            self.driver.find_element(*LoginPage.password).send_keys(self.getdata("test_login", "Password"))
+            log.info("Password entered")
+        except Exception as error:
+            log.error(error)
 
     def signinbutton(self):
-        self.driver.find_element(*LoginPage.signin_button).click()
+        log = self.getLogger()
+        try:
+            self.driver.find_element(*LoginPage.signin_button).click()
+            log.info("Clicked on Sign in button")
+        except Exception as error:
+            log.error(error)

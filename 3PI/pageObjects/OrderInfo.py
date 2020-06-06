@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 
-from Utilities.baseclass import Baseclass
+from utilities.baseclass import Baseclass
 
 
 class Orderinfo(Baseclass):
@@ -12,11 +12,19 @@ class Orderinfo(Baseclass):
         self.driver = driver
 
     def selectOrdertype(self):
-        self.expli_wait(self.ordertype)
+        log = self.getLogger()
         try:
+            self.expli_wait(self.ordertype)
             self.get_list_data(self.ordertype, "test_order", "order")
-        except NoSuchElementException:
-            print("No element found")
+            log.info("Order tye selected")
+        except Exception as error:
+            log.error(error)
+
 
     def clicknext(self):
-        self.clickbutton(self.nextbutton)
+        log = self.getLogger()
+        try:
+            self.clickbutton(self.nextbutton)
+            log.info("Next button clicked")
+        except Exception as error:
+            log.error(error)

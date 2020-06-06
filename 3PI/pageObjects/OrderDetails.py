@@ -1,4 +1,4 @@
-from Utilities.baseclass import Baseclass
+from utilities.baseclass import Baseclass
 
 
 class Orderdetails(Baseclass):
@@ -12,13 +12,27 @@ class Orderdetails(Baseclass):
         self.driver = driver
 
     def project(self):
-        self.expli_wait(self.projectid)
-        self.driver.find_element_by_xpath(self.projectid).send_keys(self.getdata("test_selectOrderType", "projectid"))
-        self.expli_wait(self.search_pid)
-        self.driver.find_element_by_xpath(self.search_pid).click()
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.projectid)
+            self.driver.find_element_by_xpath(self.projectid).send_keys(self.getdata("test_selectOrderType", "projectid"))
+            log.info("Project ID entered")
+            self.expli_wait(self.search_pid)
+            self.Pass_snaps("Order details entered")
+            self.driver.find_element_by_xpath(self.search_pid).click()
+            log.info("PID searched")
+        except Exception as error:
+            log.error(error)
 
     def select_project(self):
-        self.expli_wait(self.checkbox_projectid)
-        self.driver.find_element_by_xpath(self.checkbox_projectid).click()
-        self.expli_wait(self.next_pid)
-        self.driver.find_element_by_xpath(self.next_pid).click()
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.checkbox_projectid)
+            self.driver.find_element_by_xpath(self.checkbox_projectid).click()
+            log.info("Project check box clicked")
+            self.Pass_snaps("Project selected")
+            self.expli_wait(self.next_pid)
+            self.driver.find_element_by_xpath(self.next_pid).click()
+            log.info("Next button selected")
+        except Exception as error:
+            log.error(error)

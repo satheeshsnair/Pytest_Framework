@@ -1,7 +1,7 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-from Utilities.baseclass import Baseclass
+from utilities.baseclass import Baseclass
 
 
 class Shipto(Baseclass):
@@ -27,54 +27,111 @@ class Shipto(Baseclass):
         self.driver = driver
 
     def ship_material(self):
-        self.expli_wait(self.ship_materials_yes)
-        self.clickbutton(self.ship_materials_yes)
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.ship_materials_yes)
+            self.clickbutton(self.ship_materials_yes)
+            log.info("Clicked on ship material radio button")
+        except Exception as error:
+            log.error(error)
 
     def usertype(self):
-        self.expli_wait(self.jnj_emp_no)
-        self.clickbutton(self.jnj_emp_no)
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.jnj_emp_no)
+            self.clickbutton(self.jnj_emp_no)
+            log.info("Clicked on jnj employee radio button")
+        except Exception as error:
+            log.error(error)
 
     def recipient(self):
-        self.waits(3)
-        self.driver.find_element_by_xpath(self.recipient_name).send_keys(self.getdata("test_shipto", "Recipient"))
+        log = self.getLogger()
+        try:
+            self.waits(3)
+            self.driver.find_element_by_xpath(self.recipient_name).send_keys(self.getdata("test_shipto", "Recipient"))
+            log.info("Entered Recipient")
+        except Exception as error:
+            log.error(error)
+
 
     def emailid(self):
-        self.expli_wait(self.email)
-        self.driver.find_element_by_xpath(self.email).send_keys(self.getdata("test_shipto", "Email"))
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.email)
+            self.driver.find_element_by_xpath(self.email).send_keys(self.getdata("test_shipto", "Email"))
+            log.info("Entered Email")
+        except Exception as error:
+            log.error(error)
 
     def officephone(self):
-        self.expli_wait(self.office_Phone)
-        self.driver.find_element_by_xpath(self.office_Phone).send_keys(self.getdata("test_shipto", "Office_phone"))
+        log = self.getLogger()
+        try:
+            self.expli_wait(self.office_Phone)
+            self.driver.find_element_by_xpath(self.office_Phone).send_keys(self.getdata("test_shipto", "Office_phone"))
+            log.info("Entered Office phone")
+        except Exception as error:
+            log.error(error)
 
     def expecteddate(self):
-        self.waits(2)
-        self.driver.find_element_by_xpath(self.expected_date).send_keys("12/31/2020")
-        # self.waits(2)
-        #         # actions = ActionChains(self.driver)
-        #         # actions.send_keys(Keys.ENTER)
-        #         # actions.send_keys(Keys.ENTER)
-        #         # actions.send_keys(Keys.TAB)
+        log = self.getLogger()
+        try:
+            self.waits(2)
+            self.driver.find_element_by_xpath(self.expected_date).send_keys("12/31/2020")
+            log.info("Entered date")
+        except Exception as error:
+            log.error(error)
 
     def is_delivery(self):
-        self.waits(1)
-        self.clickbutton(self.is_delivery_yes)
+        log = self.getLogger()
+        try:
+            self.waits(1)
+            self.clickbutton(self.is_delivery_yes)
+            log.info("Selected Delivery radio button")
+        except Exception as error:
+            log.error(error)
 
     def region_name(self):
-        self.waits(2)
-        self.get_list_data(self.region, "test_shipto", "Region")
+        log = self.getLogger()
+        try:
+            self.waits(2)
+            self.get_list_data(self.region, "test_shipto", "Region")
+            log.info("Entered Region")
+        except Exception as error:
+            log.error(error)
 
     def country_ship(self):
-        self.waits(2)
-        self.get_list_data(self.country, "test_shipto", "Country_Ship")
+        log = self.getLogger()
+        try:
+            self.waits(2)
+            self.get_list_data(self.country, "test_shipto", "Country_Ship")
+            log.info("Entered Country to ship")
+        except Exception as error:
+            log.error(error)
 
     def site(self):
-        self.waits(2)
-        self.get_list_data(self.site_location, "test_shipto", "Site_location")
+        log = self.getLogger()
+        try:
+            self.waits(1)
+            self.get_list_data(self.site_location, "test_shipto", "Site_location")
+            log.info("Entered Site")
+        except Exception as error:
+            log.error(error)
 
     def street(self):
-        self.waits(2)
-        self.get_list_data(self.street_address, "test_shipto", "Street")
+        log = self.getLogger()
+        try:
+            self.waits(1)
+            self.get_list_data(self.street_address, "test_shipto", "Street")
+            log.info("Entered Street")
+            self.Pass_snaps("Entered all the required data in Financial info page")
+        except Exception as error:
+            log.error(error)
 
     def clicknext(self):
-        self.waits(1)
-        self.clickbutton(self.next_button)
+        log = self.getLogger()
+        try:
+            self.waits(1)
+            self.clickbutton(self.next_button)
+            log.info("Clicked on next button")
+        except Exception as error:
+            log.error(error)

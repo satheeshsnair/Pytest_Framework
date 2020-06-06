@@ -3,6 +3,7 @@ import logging
 import openpyxl
 import pytest
 import time
+import pyautogui
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
@@ -34,7 +35,7 @@ class Baseclass:
     def getLogger(self):
         loggername = inspect.stack()[1][3]
         logger = logging.getLogger(loggername)
-        filepath = "C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\Log"
+        filepath = "../logs"
         filehandler = logging.FileHandler(filepath + '\\logfile.log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         filehandler.setFormatter(formatter)
@@ -48,7 +49,8 @@ class Baseclass:
         return logger
 
     def getdata(self, Testcasename, Methodname):
-        book = openpyxl.load_workbook("C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\Testdata\\Testdata.xlsx")
+        # book = openpyxl.load_workbook("C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\testdata\\testdata.xlsx")
+        book = openpyxl.load_workbook("../testdata/Testdata.xlsx")
         sheet = book.active
         rows = sheet.max_row
         cols = sheet.max_column
@@ -85,8 +87,30 @@ class Baseclass:
         except NoSuchElementException:
             print("Element not found")
 
-    def snaps_pass(self):
-        print("f")
+    def write_to_excel(self,Testcasename,Methodname,order_number):
+        # path = "C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\testdata\\testdata.xlsx"
+        path = openpyxl.load_workbook("../testdata/Testdata.xlsx")
+        wb = openpyxl.load_workbook(path)
+        sheet = wb.active
+        rows = sheet.max_row
+        cols = sheet.max_column
+        for col in range(1, cols + 1):
+            for row in range(2, rows + 1):
+                testcasename = sheet.cell(row=row, column=col).value
+                if (testcasename == Testcasename):
+                    methodname = sheet.cell(row=row, column=col + 1).value
+                    if (methodname == Methodname):
+                        review = sheet.cell(row=row, column=col + 2)
+                        review.value = order_number
+                        wb.save(path)
+                        break
 
-    def snaps_fail(self):
-        print("f")
+    def Pass_snaps(self,testname):
+        filepath = "../output/Pass"
+        myScreenshot = pyautogui.screenshot()
+        myScreenshot.save(filepath + "\\" + testname + ".png")
+
+    def Fail_snaps(self,testname):
+        filepath = "../output/Fail"
+        myScreenshot = pyautogui.screenshot()
+        myScreenshot.save(filepath + "\\" + testname + ".png")
