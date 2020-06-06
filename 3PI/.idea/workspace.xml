@@ -16,10 +16,7 @@
       <change beforePath="$PROJECT_DIR$/output/Pass/Project selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Project selected.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/Testdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testetstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testetstest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/baseclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/baseclass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/3PI_JJ.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/misc.xml" beforeDir="false" />
@@ -2561,16 +2558,23 @@
       <option name="project" value="LOCAL" />
       <updated>1591435119645</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
+      <created>1591448251625</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591448251625</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change in SelectOrder Code" />
     <MESSAGE value="Updated codes in Financial page.&#10;added new test cases" />
     <MESSAGE value="Added new test case&#10;Added new code to existing project" />
-    <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
     <MESSAGE value="Driver added, Snap shots added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver added, Snap shots added" />
+    <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#Shipto" timestamp="1591094617015">
@@ -2589,10 +2593,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="603" y="96" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590501942816" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591448123751">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591448331772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591448123751" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591448331772" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591083650049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
