@@ -1,3 +1,4 @@
+import os
 import time
 import subprocess
 
@@ -18,9 +19,10 @@ def setup(request):
     global driver
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
-        driver = webdriver.Chrome(executable_path = "../driver/chromedriver.exe")
+        #driver = webdriver.Chrome(executable_path="../driver/chromedriver.exe")
+        driver = webdriver.Chrome(executable_path=os.path.abspath("driver\chromedriver.exe"))
     elif browser_name == 'ie':
-        driver = webdriver.Ie(executable_path = "../driver/IEDriverServer.exe")
+        driver = webdriver.Ie(executable_path="../driver/IEDriverServer.exe")
 
     driver.maximize_window()
     driver.get('https://jnjtest.appiancloud.com/suite/portal/login.jsp')

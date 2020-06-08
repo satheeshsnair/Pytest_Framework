@@ -1,5 +1,6 @@
 import inspect
 import logging
+import os
 import openpyxl
 import pytest
 import time
@@ -35,7 +36,7 @@ class Baseclass:
     def getLogger(self):
         loggername = inspect.stack()[1][3]
         logger = logging.getLogger(loggername)
-        filepath = "../logs"
+        filepath = os.path.realpath("logs")
         filehandler = logging.FileHandler(filepath + '\\logfile.log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         filehandler.setFormatter(formatter)
@@ -50,7 +51,7 @@ class Baseclass:
 
     def getdata(self, Testcasename, Methodname):
         # book = openpyxl.load_workbook("C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\testdata\\testdata.xlsx")
-        book = openpyxl.load_workbook("../testdata/Testdata.xlsx")
+        book = openpyxl.load_workbook(os.path.realpath("testdata/Testdata.xlsx"))
         sheet = book.active
         rows = sheet.max_row
         cols = sheet.max_column
@@ -89,7 +90,7 @@ class Baseclass:
 
     def write_to_excel(self,Testcasename,Methodname,order_number):
         # path = "C:\\Users\\satheeshnair\\PycharmProjects\\3PI\\testdata\\testdata.xlsx"
-        path = "../testdata/Testdata.xlsx"
+        path = os.path.realpath("testdata/Testdata.xlsx")
         wb = openpyxl.load_workbook(path)
         sheet = wb.active
         rows = sheet.max_row
@@ -106,11 +107,11 @@ class Baseclass:
                         break
 
     def Pass_snaps(self,testname):
-        filepath = "../output/Pass"
+        filepath = os.path.realpath("output/Pass")
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save(filepath + "\\" + testname + ".png")
 
     def Fail_snaps(self,testname):
-        filepath = "../output/Fail"
+        filepath = os.path.realpath("output/Fail")
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save(filepath + "\\" + testname + ".png")
