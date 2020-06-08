@@ -1,0 +1,8 @@
+[32mINFO    [0m country_name:Financial_Info.py:22 Country selected
+[32mINFO    [0m capital_amt:Financial_Info.py:31 Entered amount
+[32mINFO    [0m expense_amount:Financial_Info.py:40 Entered expense amount
+[32mINFO    [0m quote_nmbr:Financial_Info.py:49 Entered quote number
+[32mINFO    [0m supplier_name:Financial_Info.py:58 Entered supplier
+[32mINFO    [0m upload_file:Financial_Info.py:68 Uploaded file
+[32mINFO    [0m click_next:Financial_Info.py:77 Clicked on nesxt button
+[32mINFO    [0m test_financial:test_3pi.py:109 Navigated to Ship to page

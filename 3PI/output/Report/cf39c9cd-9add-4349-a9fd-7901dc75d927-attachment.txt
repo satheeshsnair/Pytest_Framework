@@ -1,0 +1,2 @@
+[32mINFO    [0m clickon3PISubmitOrderRequest:Actionstab.py:17 Clicked on 3PI Submit Order Request
+[32mINFO    [0m test_submitorderreq:test_3pi.py:57 Click on Submit request link

@@ -1,0 +1,5 @@
+[32mINFO    [0m project:OrderDetails.py:19 Project ID entered
+[32mINFO    [0m project:OrderDetails.py:23 PID searched
+[32mINFO    [0m select_project:OrderDetails.py:32 Project check box clicked
+[32mINFO    [0m select_project:OrderDetails.py:36 Next button selected
+[32mINFO    [0m test_OrderDetails:test_3pi.py:88 Navigated to Financial info

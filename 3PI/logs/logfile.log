@@ -1,0 +1,274 @@
+2020-06-08 11:57:36,426 :INFO :getusername :Username entered
+2020-06-08 11:57:36,550 :INFO :getpassword :Password entered
+2020-06-08 11:57:42,170 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 11:57:45,260 :INFO :test_login :logged in successful
+2020-06-08 11:58:36,940 :INFO :getusername :Username entered
+2020-06-08 11:58:37,109 :INFO :getpassword :Password entered
+2020-06-08 11:58:41,928 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 11:58:45,047 :INFO :test_login :logged in successful
+2020-06-08 12:01:25,286 :INFO :getusername :Username entered
+2020-06-08 12:01:25,478 :INFO :getpassword :Password entered
+2020-06-08 12:01:29,798 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 12:01:32,882 :INFO :test_login :logged in successful
+2020-06-08 12:02:48,053 :INFO :getusername :Username entered
+2020-06-08 12:02:48,199 :INFO :getpassword :Password entered
+2020-06-08 12:02:53,915 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 12:02:57,061 :INFO :test_login :logged in successful
+2020-06-08 13:10:03,746 :INFO :getusername :Username entered
+2020-06-08 13:10:03,905 :INFO :getpassword :Password entered
+2020-06-08 13:10:09,356 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 13:10:12,482 :INFO :test_login :logged in successful
+2020-06-08 16:05:06,645 :INFO :getusername :Username entered
+2020-06-08 16:05:06,868 :INFO :getpassword :Password entered
+2020-06-08 16:05:15,937 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 16:05:19,813 :INFO :test_login :logged in successful
+2020-06-08 16:24:51,342 :INFO :getusername :Username entered
+2020-06-08 16:24:51,625 :INFO :getpassword :Password entered
+2020-06-08 16:24:59,073 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 16:25:02,093 :INFO :test_login :logged in successful
+2020-06-08 17:48:03,213 :INFO :getusername :Username entered
+2020-06-08 17:48:03,353 :INFO :getpassword :Password entered
+2020-06-08 17:48:08,161 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 17:48:11,290 :INFO :test_login :logged in successful
+2020-06-08 17:48:11,985 :INFO :clickonActiontab :Clicked on Action Tab
+2020-06-08 17:48:14,998 :INFO :test_clickAction :Navigated to Actions Tab
+2020-06-08 17:48:15,355 :INFO :clickon3PISubmitOrderRequest :Clicked on 3PI Submit Order Request
+2020-06-08 17:48:18,368 :INFO :test_submitorderreq :Click on Submit request link
+2020-06-08 17:48:25,350 :INFO :selectOrdertype :Order tye selected
+2020-06-08 17:48:25,553 :INFO :clicknext :Next button clicked
+2020-06-08 17:48:27,685 :INFO :clicknext :Next button clicked
+2020-06-08 17:48:27,685 :INFO :clicknext :Next button clicked
+2020-06-08 17:48:28,431 :INFO :project :Project ID entered
+2020-06-08 17:48:28,646 :INFO :project :PID searched
+2020-06-08 17:48:29,744 :INFO :select_project :Project check box clicked
+2020-06-08 17:48:29,937 :INFO :select_project :Next button selected
+2020-06-08 17:48:29,947 :INFO :test_OrderDetails :Navigated to Financial info
+2020-06-08 17:48:40,494 :INFO :country_name :Country selected
+2020-06-08 17:48:40,647 :INFO :capital_amt :Entered amount
+2020-06-08 17:48:40,796 :INFO :expense_amount :Entered expense amount
+2020-06-08 17:48:41,039 :INFO :quote_nmbr :Entered quote number
+2020-06-08 17:48:47,971 :INFO :supplier_name :Entered supplier
+2020-06-08 17:48:54,147 :INFO :upload_file :Uploaded file
+2020-06-08 17:48:54,316 :INFO :click_next :Clicked on nesxt button
+2020-06-08 17:48:56,331 :INFO :test_financial :Navigated to Ship to page
+2020-06-08 17:48:56,532 :INFO :ship_material :Clicked on ship material radio button
+2020-06-08 17:48:56,649 :INFO :usertype :Clicked on jnj employee radio button
+2020-06-08 17:48:59,965 :INFO :recipient :Entered Recipient
+2020-06-08 17:49:00,220 :INFO :emailid :Entered Email
+2020-06-08 17:49:00,447 :INFO :officephone :Entered Office phone
+2020-06-08 17:49:01,589 :INFO :is_delivery :Selected Delivery radio button
+2020-06-08 17:49:03,844 :INFO :expecteddate :Entered date
+2020-06-08 17:49:12,584 :INFO :region_name :Entered Region
+2020-06-08 17:49:21,309 :INFO :country_ship :Entered Country to ship
+2020-06-08 17:49:29,120 :INFO :site :Entered Site
+2020-06-08 17:49:36,934 :INFO :street :Entered Street
+2020-06-08 17:49:38,136 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:38,136 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:38,136 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:38,144 :INFO :test_ship_to :Entered shipping info. Navigating to review page
+2020-06-08 17:49:42,375 :INFO :get_Order_title :Scraped Order number from page and wrote it back to excel
+2020-06-08 17:49:44,488 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:44,488 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:44,488 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:44,488 :INFO :clicknext :Clicked on next button
+2020-06-08 17:49:49,510 :INFO :test_review_page :Order has been submitted successfully
+2020-06-08 17:54:04,018 :INFO :getusername :Username entered
+2020-06-08 17:54:04,176 :INFO :getpassword :Password entered
+2020-06-08 17:54:09,159 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 17:54:12,169 :INFO :test_login :logged in successful
+2020-06-08 17:54:12,538 :INFO :clickonActiontab :Clicked on Action Tab
+2020-06-08 17:54:15,545 :INFO :test_clickAction :Navigated to Actions Tab
+2020-06-08 17:54:15,893 :INFO :clickon3PISubmitOrderRequest :Clicked on 3PI Submit Order Request
+2020-06-08 17:54:18,915 :INFO :test_submitorderreq :Click on Submit request link
+2020-06-08 17:54:25,850 :INFO :selectOrdertype :Order tye selected
+2020-06-08 17:54:26,028 :INFO :clicknext :Next button clicked
+2020-06-08 17:54:28,111 :INFO :clicknext :Next button clicked
+2020-06-08 17:54:28,111 :INFO :clicknext :Next button clicked
+2020-06-08 17:54:28,887 :INFO :project :Project ID entered
+2020-06-08 17:54:29,085 :INFO :project :PID searched
+2020-06-08 17:54:30,251 :INFO :select_project :Project check box clicked
+2020-06-08 17:54:30,458 :INFO :select_project :Next button selected
+2020-06-08 17:54:30,490 :INFO :test_OrderDetails :Navigated to Financial info
+2020-06-08 17:54:51,036 :ERROR :country_name :Message: 
+
+2020-06-08 17:55:11,090 :ERROR :capital_amt :Message: 
+
+2020-06-08 17:55:31,414 :ERROR :expense_amount :Message: 
+
+2020-06-08 17:55:51,878 :ERROR :quote_nmbr :Message: 
+
+2020-06-08 17:56:12,265 :ERROR :supplier_name :Message: 
+
+2020-06-08 17:56:32,687 :ERROR :upload_file :Message: 
+
+2020-06-08 17:56:32,728 :ERROR :click_next :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:56:34,740 :INFO :test_financial :Not able to navigate to Ship to page
+2020-06-08 17:56:55,385 :ERROR :ship_material :Message: 
+
+2020-06-08 17:57:15,807 :ERROR :usertype :Message: 
+
+2020-06-08 17:57:18,879 :ERROR :recipient :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='TextInput---text TextInput---align_start'])[1]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:57:39,277 :ERROR :emailid :Message: 
+
+2020-06-08 17:57:59,805 :ERROR :officephone :Message: 
+
+2020-06-08 17:58:00,887 :ERROR :is_delivery :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='RadioSelect---choice_label'])[5]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:02,956 :ERROR :expecteddate :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='DatePickerWidget---text DatePickerWidget---align_start DatePickerWidget---width_narrow'])"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:05,024 :ERROR :region_name :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='FieldLayout---input_column']/div/div)[5]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:07,086 :ERROR :country_ship :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='FieldLayout---input_column']/div/div)[6]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:08,164 :ERROR :site :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='FieldLayout---input_column']/div/div)[7]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:09,211 :ERROR :street :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='FieldLayout---input_column']/div/div)[8]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:10,260 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list'])"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:10,260 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list'])"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:10,260 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list'])"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:10,267 :INFO :test_ship_to :Failed to enter review page
+2020-06-08 17:58:14,453 :ERROR :get_Order_title :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='FieldLayout---input_column']/p)[1]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:16,494 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:16,494 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:16,494 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:16,494 :ERROR :clicknext :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='Button---btn Button---default_direction Button---primary appian-context-first-in-list appian-context-last-in-list']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:58:19,501 :INFO :test_review_page :Order has been submitted successfully
+2020-06-08 17:59:40,145 :ERROR :getusername :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='un']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:59:40,189 :ERROR :getpassword :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='pw']"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:59:40,242 :ERROR :signinbutton :Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='btn primary'])[2]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:59:43,248 :INFO :test_login :logged in failed
+2020-06-08 17:59:43,548 :ERROR :clickonActiontab :Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Actions')]"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 17:59:46,677 :INFO :test_clickAction :failed to click on actions tab
+2020-06-08 18:00:01,193 :ERROR :selectOrdertype :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:08,215 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:23,260 :ERROR :project :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:30,373 :ERROR :select_project :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:42,625 :ERROR :country_name :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:48,727 :ERROR :capital_amt :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:00:54,853 :ERROR :expense_amount :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:01:00,947 :ERROR :quote_nmbr :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 18:01:27,325 :INFO :getusername :Username entered
+2020-06-08 18:01:27,469 :INFO :getpassword :Password entered
+2020-06-08 18:01:32,437 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 18:01:35,654 :INFO :test_login :logged in successful
+2020-06-08 18:01:36,341 :INFO :clickonActiontab :Clicked on Action Tab
+2020-06-08 18:01:39,355 :INFO :test_clickAction :Navigated to Actions Tab
+2020-06-08 18:01:39,681 :INFO :clickon3PISubmitOrderRequest :Clicked on 3PI Submit Order Request
+2020-06-08 18:01:42,695 :INFO :test_submitorderreq :Click on Submit request link
+2020-06-08 18:01:49,667 :INFO :selectOrdertype :Order tye selected
+2020-06-08 18:01:49,849 :INFO :clicknext :Next button clicked
+2020-06-08 18:01:51,952 :INFO :clicknext :Next button clicked
+2020-06-08 18:01:51,952 :INFO :clicknext :Next button clicked
+2020-06-08 18:01:52,702 :INFO :project :Project ID entered
+2020-06-08 18:01:52,892 :INFO :project :PID searched
+2020-06-08 18:01:54,085 :INFO :select_project :Project check box clicked
+2020-06-08 18:01:54,281 :INFO :select_project :Next button selected
+2020-06-08 18:01:54,289 :INFO :test_OrderDetails :Navigated to Financial info
+2020-06-08 18:02:04,280 :INFO :country_name :Country selected
+2020-06-08 18:02:04,415 :INFO :capital_amt :Entered amount
+2020-06-08 18:02:04,559 :INFO :expense_amount :Entered expense amount
+2020-06-08 18:02:04,765 :INFO :quote_nmbr :Entered quote number
+2020-06-08 18:02:11,639 :INFO :supplier_name :Entered supplier
+2020-06-08 18:02:17,791 :INFO :upload_file :Uploaded file
+2020-06-08 18:02:17,990 :INFO :click_next :Clicked on nesxt button
+2020-06-08 18:02:19,996 :INFO :test_financial :Navigated to Ship to page
+2020-06-08 18:02:20,757 :INFO :ship_material :Clicked on ship material radio button
+2020-06-08 18:02:20,879 :INFO :usertype :Clicked on jnj employee radio button
+2020-06-08 18:02:24,077 :INFO :recipient :Entered Recipient
+2020-06-08 18:02:24,323 :INFO :emailid :Entered Email
+2020-06-08 18:02:24,486 :INFO :officephone :Entered Office phone
+2020-06-08 18:02:25,618 :INFO :is_delivery :Selected Delivery radio button
+2020-06-08 18:02:27,873 :INFO :expecteddate :Entered date
+2020-06-08 18:02:36,615 :INFO :region_name :Entered Region
+2020-06-08 18:02:45,429 :INFO :country_ship :Entered Country to ship
+2020-06-08 18:02:53,231 :INFO :site :Entered Site
+2020-06-08 18:03:01,131 :INFO :street :Entered Street
+2020-06-08 18:03:02,314 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:02,314 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:02,314 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:02,321 :INFO :test_ship_to :Entered shipping info. Navigating to review page
+2020-06-08 18:03:06,517 :INFO :get_Order_title :Scraped Order number from page and wrote it back to excel
+2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
+2020-06-08 18:03:13,708 :INFO :test_review_page :Order has been submitted successfully

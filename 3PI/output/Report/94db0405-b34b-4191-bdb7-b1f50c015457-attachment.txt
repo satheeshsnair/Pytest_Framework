@@ -1,0 +1,3 @@
+[32mINFO    [0m get_Order_title:Review.py:21 Scraped Order number from page and wrote it back to excel
+[32mINFO    [0m clicknext:Review.py:30 Clicked on next button
+[32mINFO    [0m test_review_page:test_3pi.py:150 Order has been submitted successfully

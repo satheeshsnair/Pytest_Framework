@@ -1,0 +1,3 @@
+[32mINFO    [0m selectOrdertype:OrderInfo.py:19 Order tye selected
+[32mINFO    [0m clicknext:OrderInfo.py:28 Next button clicked
+[32mINFO    [0m clicknext:OrderInfo.py:28 Next button clicked

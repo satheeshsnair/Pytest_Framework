@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2ef94c-9d1b-4f8c-b08f-7529fc06eabd" name="Default Changelist" comment="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/Testdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testetstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testetstest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/baseclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/baseclass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/3PI_JJ.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3PI_JJ/.idea/misc.xml" beforeDir="false" />
@@ -2572,7 +2564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591448801304</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added new functions. Added allure plugins.">
+      <created>1591619825936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591619825936</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -2581,7 +2580,8 @@
     <MESSAGE value="Added new test case&#10;Added new code to existing project" />
     <MESSAGE value="Driver added, Snap shots added" />
     <MESSAGE value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
+    <MESSAGE value="added new functions. Added allure plugins." />
+    <option name="LAST_COMMIT_MESSAGE" value="added new functions. Added allure plugins." />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#Shipto" timestamp="1591094617015">
@@ -2600,10 +2600,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="603" y="96" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590501942816" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591619749622">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1591619821273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591619749622" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591619821273" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591083650049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2648,10 +2648,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="359" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591603756430" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591450004545">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591620016559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591450004545" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591620016559" />
     <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591618616025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

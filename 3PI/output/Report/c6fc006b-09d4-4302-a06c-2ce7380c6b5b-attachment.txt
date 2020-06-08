@@ -1,0 +1,2 @@
+[32mINFO    [0m clickonActiontab:Newstab.py:21 Clicked on Action Tab
+[32mINFO    [0m test_clickAction:test_3pi.py:41 Navigated to Actions Tab

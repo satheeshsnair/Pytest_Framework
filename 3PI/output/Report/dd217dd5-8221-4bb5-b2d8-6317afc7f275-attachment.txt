@@ -1,0 +1,4 @@
+[32mINFO    [0m getusername:Loginpage.py:23 Username entered
+[32mINFO    [0m getpassword:Loginpage.py:32 Password entered
+[32mINFO    [0m signinbutton:Loginpage.py:40 Clicked on Sign in button
+[32mINFO    [0m test_login:test_3pi.py:26 logged in successful

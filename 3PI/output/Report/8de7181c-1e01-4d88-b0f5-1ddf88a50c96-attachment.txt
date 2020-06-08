@@ -1,0 +1,13 @@
+[32mINFO    [0m ship_material:Shipto.py:34 Clicked on ship material radio button
+[32mINFO    [0m usertype:Shipto.py:43 Clicked on jnj employee radio button
+[32mINFO    [0m recipient:Shipto.py:52 Entered Recipient
+[32mINFO    [0m emailid:Shipto.py:62 Entered Email
+[32mINFO    [0m officephone:Shipto.py:71 Entered Office phone
+[32mINFO    [0m is_delivery:Shipto.py:89 Selected Delivery radio button
+[32mINFO    [0m expecteddate:Shipto.py:80 Entered date
+[32mINFO    [0m region_name:Shipto.py:98 Entered Region
+[32mINFO    [0m country_ship:Shipto.py:107 Entered Country to ship
+[32mINFO    [0m site:Shipto.py:116 Entered Site
+[32mINFO    [0m street:Shipto.py:125 Entered Street
+[32mINFO    [0m clicknext:Shipto.py:135 Clicked on next button
+[32mINFO    [0m test_ship_to:test_3pi.py:134 Entered shipping info. Navigating to review page
