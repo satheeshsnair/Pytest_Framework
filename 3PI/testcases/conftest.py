@@ -13,13 +13,11 @@ def pytest_addoption(parser):
         "--browser_name", action="store", default="chrome"
     )
 
-
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
-        #driver = webdriver.Chrome(executable_path="../driver/chromedriver.exe")
         driver = webdriver.Chrome(executable_path=os.path.abspath("driver\chromedriver.exe"))
     elif browser_name == 'ie':
         driver = webdriver.Ie(executable_path="../driver/IEDriverServer.exe")
