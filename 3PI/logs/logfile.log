@@ -272,3 +272,201 @@
 2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
 2020-06-08 18:03:08,680 :INFO :clicknext :Clicked on next button
 2020-06-08 18:03:13,708 :INFO :test_review_page :Order has been submitted successfully
+2020-06-08 19:33:33,163 :INFO :getusername :Username entered
+2020-06-08 19:33:33,319 :INFO :getpassword :Password entered
+2020-06-08 19:33:39,188 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 19:33:54,482 :ERROR :clickonActiontab :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:34:15,890 :ERROR :selectOrdertype :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:34:22,200 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:34:36,406 :ERROR :project :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:34:43,492 :ERROR :select_project :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:34:55,697 :ERROR :country_name :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:01,784 :ERROR :capital_amt :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:07,853 :ERROR :expense_amount :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:13,931 :ERROR :quote_nmbr :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:19,991 :ERROR :supplier_name :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:26,112 :ERROR :upload_file :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:32,196 :ERROR :click_next :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:46,441 :ERROR :ship_material :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:35:52,554 :ERROR :usertype :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:01,649 :ERROR :recipient :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:07,788 :ERROR :emailid :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:13,896 :ERROR :officephone :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:21,011 :ERROR :is_delivery :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:29,123 :ERROR :expecteddate :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:37,265 :ERROR :region_name :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:45,369 :ERROR :country_ship :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:52,496 :ERROR :site :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:36:59,595 :ERROR :street :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:06,686 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:06,686 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:22,963 :ERROR :get_Order_title :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:31,101 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:31,101 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:37:31,101 :ERROR :clicknext :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:38:29,360 :INFO :getusername :Username entered
+2020-06-08 19:38:29,501 :INFO :getpassword :Password entered
+2020-06-08 19:38:34,726 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 19:38:37,885 :INFO :test_login :logged in successful
+2020-06-08 19:38:38,270 :INFO :clickonActiontab :Clicked on Action Tab
+2020-06-08 19:38:59,717 :ERROR :selectOrdertype :Message: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64)
+
+2020-06-08 19:40:49,909 :INFO :getusername :Username entered
+2020-06-08 19:40:50,041 :INFO :getpassword :Password entered
+2020-06-08 19:41:01,288 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 19:41:04,299 :INFO :test_login :logged in successful
+2020-06-08 20:01:08,655 :INFO :getusername :Username entered
+2020-06-08 20:01:08,938 :INFO :getpassword :Password entered
+2020-06-08 20:01:22,017 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:01:25,927 :INFO :test_login :logged in successful
+2020-06-08 20:08:58,022 :INFO :getusername :Username entered
+2020-06-08 20:08:58,251 :INFO :getpassword :Password entered
+2020-06-08 20:09:06,986 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:09:10,260 :INFO :test_login :logged in successful
+2020-06-08 20:16:59,461 :INFO :getusername :Username entered
+2020-06-08 20:16:59,889 :INFO :getpassword :Password entered
+2020-06-08 20:17:07,371 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:17:10,755 :INFO :test_login :logged in successful
+2020-06-08 20:19:16,508 :INFO :getusername :Username entered
+2020-06-08 20:19:16,726 :INFO :getpassword :Password entered
+2020-06-08 20:19:23,487 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:19:26,707 :INFO :test_login :logged in successful
+2020-06-08 20:20:12,414 :INFO :getusername :Username entered
+2020-06-08 20:20:12,684 :INFO :getpassword :Password entered
+2020-06-08 20:20:18,095 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:20:21,281 :INFO :test_login :logged in successful
+2020-06-08 20:26:45,081 :INFO :getusername :Username entered
+2020-06-08 20:26:45,357 :INFO :getpassword :Password entered
+2020-06-08 20:26:51,913 :INFO :signinbutton :Clicked on Sign in button
+2020-06-08 20:26:54,921 :INFO :test_login :logged in successful
+2020-06-08 20:26:56,535 :INFO :clickonActiontab :Clicked on Action Tab
+2020-06-08 20:26:59,558 :INFO :test_clickAction :Navigated to Actions Tab
+2020-06-08 20:27:00,180 :INFO :clickon3PISubmitOrderRequest :Clicked on 3PI Submit Order Request
+2020-06-08 20:27:03,190 :INFO :test_submitorderreq :Click on Submit request link
+2020-06-08 20:27:10,563 :INFO :selectOrdertype :Order tye selected
+2020-06-08 20:27:10,980 :INFO :clicknext :Next button clicked
+2020-06-08 20:27:13,139 :INFO :clicknext :Next button clicked
+2020-06-08 20:27:13,139 :INFO :clicknext :Next button clicked
+2020-06-08 20:27:14,106 :INFO :project :Project ID entered
+2020-06-08 20:27:14,417 :INFO :project :PID searched
+2020-06-08 20:27:15,760 :INFO :select_project :Project check box clicked
+2020-06-08 20:27:16,091 :INFO :select_project :Next button selected
+2020-06-08 20:27:16,097 :INFO :test_OrderDetails :Navigated to Financial info
+2020-06-08 20:27:26,182 :INFO :country_name :Country selected
+2020-06-08 20:27:26,433 :INFO :capital_amt :Entered amount
+2020-06-08 20:27:26,674 :INFO :expense_amount :Entered expense amount
+2020-06-08 20:27:26,971 :INFO :quote_nmbr :Entered quote number
+2020-06-08 20:27:34,199 :INFO :supplier_name :Entered supplier
+2020-06-08 20:27:40,543 :INFO :upload_file :Uploaded file
+2020-06-08 20:27:41,043 :INFO :click_next :Clicked on nesxt button
+2020-06-08 20:27:43,062 :INFO :test_financial :Navigated to Ship to page
+2020-06-08 20:27:43,500 :INFO :ship_material :Clicked on ship material radio button
+2020-06-08 20:27:43,752 :INFO :usertype :Clicked on jnj employee radio button
+2020-06-08 20:27:47,298 :INFO :recipient :Entered Recipient
+2020-06-08 20:27:47,794 :INFO :emailid :Entered Email
+2020-06-08 20:27:48,092 :INFO :officephone :Entered Office phone
+2020-06-08 20:27:49,290 :INFO :is_delivery :Selected Delivery radio button
+2020-06-08 20:27:51,817 :INFO :expecteddate :Entered date
+2020-06-08 20:28:00,750 :INFO :region_name :Entered Region
+2020-06-08 20:28:09,632 :INFO :country_ship :Entered Country to ship
+2020-06-08 20:28:17,663 :INFO :site :Entered Site
+2020-06-08 20:28:25,699 :INFO :street :Entered Street
+2020-06-08 20:28:27,142 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:27,142 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:27,142 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:27,151 :INFO :test_ship_to :Entered shipping info. Navigating to review page
+2020-06-08 20:28:31,648 :INFO :get_Order_title :Scraped Order number from page and wrote it back to excel
+2020-06-08 20:28:33,889 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:33,889 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:33,889 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:33,889 :INFO :clicknext :Clicked on next button
+2020-06-08 20:28:38,927 :INFO :test_review_page :Order has been submitted successfully

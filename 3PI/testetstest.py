@@ -51,7 +51,7 @@ import os
 # print(os.path.dirname (os.path.abspath("C:\\Users\\satheeshnair\\Desktop\\infocampus\\SourceCode\\AppianJJ\\configuration\\Drivers\\chromedriver.exe")))
 # print(os.path.basename("C:\\Users\\satheeshnair\\Desktop\\infocampus\\SourceCode\\AppianJJ\\configuration\\Drivers\\
 #
-# print(os.path.abspath("driver\chromedriver.exe"))
+print(os.path.abspath("driver\chromedriver.exe"))
 # print(os.path.realpath("output/Pass"))
 
 
