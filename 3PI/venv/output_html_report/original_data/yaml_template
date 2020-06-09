@@ -1,0 +1,40 @@
+details:
+- base_url: http://192.168.5.124:32242
+  name: ""
+  output: []
+  records:
+  - meta_data:
+      request:
+        headers: {}
+        method: POST
+        request_data: {ActId: 12306, Channel: c, DeviceId: Test_52858O, Lang: zh-cn,
+          RetailId: 1, Sess: 'nWNs0H[CEqZkET4AxR0UNiWzYK1=', ShareId: 1, ShareType: 2,
+          T: 1555643936, Time: '2019-04-19 06:02:08.000', Ver: '2.001', actionid: 12306,
+          appId: 1020, serverId: '114'}
+        start_timestamp: '2020-03-14 16:37:13'
+        url: /frontend/json
+      response:
+        content_type: application/json; charset=utf-8
+        cookies: {}
+        headers: {Content-Type: application/json; charset=utf-8, Date: 'Thu, 12 Mar
+            2020 07:45:04 GMT', Transfer-Encoding: chunked}
+        response_data:
+          ActionId: '1113'
+          Info: ''
+          Stat: 0
+          StateInfo:
+          - {audit: '0', id: '2018824', name: "", state: 2}
+    name: ""
+    status: success
+  stat: {errors: 0, expectedFailures: 0, failures: 0, skipped: 0, successes: 2, testsRun: 2,
+    unexpectedSuccesses: 0}
+  success: true
+  time: {duration: 0.8010456562042236, start_at: '2020-03-12 15:45:03'}
+html_report_name: '2020-03-14 16:37:13'
+platform: {go: '13.1', platform: Windows-7-6.1.7601-SP1, python_version: CPython 3.6.6,
+  report_version: 1.0.0}
+stat: {errors: 0, expectedFailures: 0, failures: 0, skipped: 0, successes: 2, testsRun: 2,
+  unexpectedSuccesses: 0}
+success: true
+time: {duration: 0.8010456562042236, start_at: 1584145033.6367722, start_datetime: '2020-03-15
+    16:37:13'}

@@ -19,6 +19,7 @@ def setup(request):
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
         driver = webdriver.Chrome(executable_path=os.path.abspath("driver\chromedriver.exe"))
+        # driver = webdriver.Chrome(executable_path="../driver/chromedriver.exe")
     elif browser_name == 'ie':
         driver = webdriver.Ie(executable_path="../driver/IEDriverServer.exe")
 

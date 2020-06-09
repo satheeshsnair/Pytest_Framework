@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2ef94c-9d1b-4f8c-b08f-7529fc06eabd" name="Default Changelist" comment="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code">
+      <change beforePath="$PROJECT_DIR$/.idea/3PI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3PI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/Actions Tab displayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Actions Tab displayed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Entered all the required data in Financial info page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Entered all the required data in Financial info page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Entered data in Financial info tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Entered data in Financial info tab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Navigated to Financial info.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigated to Financial info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Navigated to Ship to page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigated to Ship to page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Navigating to Review page.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Navigating to Review page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Order details entered.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order details entered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Order has been submitted successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order has been submitted successfully.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Order type selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order type selected.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/Order type.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Order type.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Pass/Project selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Project selected.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/Submit order request link clicked and Order info screen displayed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Pass/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Pass/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/Testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/Testdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testetstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testetstest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testcases/test_3pi.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -60,7 +54,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testetstest">
+  <component name="RunManager" selected="Python tests.pytest in test_3pi.py">
     <configuration name="CreateRequestPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3PI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +68,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageObjects/CreateRequestPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Multibrowser (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3PI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/old_PythonFramework/Learn" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/old_PythonFramework/Learn/Multibrowser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,27 +131,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageObjects/Shipto.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3PI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/conftest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +227,7 @@
       <module name="3PI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\satheeshnair\PycharmProjects\Learn\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\satheeshnair\PycharmProjects\3PI\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -249,17 +243,17 @@
       <item itemvalue="Python.CreateRequestPage" />
       <item itemvalue="Python.Multibrowser" />
       <item itemvalue="Python.Shipto" />
-      <item itemvalue="Python.conftest" />
       <item itemvalue="Python.testetstest" />
+      <item itemvalue="Python.Multibrowser (1)" />
       <item itemvalue="Python tests.pytest in test_3pi.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.testetstest" />
+        <item itemvalue="Python.Multibrowser (1)" />
         <item itemvalue="Python.Shipto" />
         <item itemvalue="Python.CreateRequestPage" />
         <item itemvalue="Python.Multibrowser" />
-        <item itemvalue="Python.conftest" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +370,9 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Change in SelectOrder Code" />
     <MESSAGE value="Updated codes in Financial page.&#10;added new test cases" />
     <MESSAGE value="Added new test case&#10;Added new code to existing project" />
@@ -385,14 +382,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated codes in Financial page.&#10;added new test cases&#10;Cleaned up code" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1591686403132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1591686403132" />
     <state x="402" y="0" key="#Shipto" timestamp="1591094617015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="0" key="#Shipto/0.0.1366.728@0.0.1366.728" timestamp="1591094617015" />
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591625257307">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591688573158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591625257307" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591688573158" />
     <state x="880" y="245" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1588677766786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -405,30 +406,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591628565604" />
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591083650049">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1591688959357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1591083650049" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1590491148169">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1591688959357" />
+    <state x="417" y="129" key="EnvironmentVariablesDialog" timestamp="1591688528149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590491148169" />
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591625708976">
+    <state x="417" y="129" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591688528149" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1591684912987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591625708976" />
-    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591625708976">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591684912987" />
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1591688443799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591625708976" />
-    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591625708976">
+    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591688443799" />
+    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1591688443799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591625708976" />
-    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591625708976">
+    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591688443799" />
+    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1591688443799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591625708976" />
+    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591688443799" />
+    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1591688443799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591688443799" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591616446912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -445,18 +450,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591616446912" />
-    <state x="359" y="0" key="SettingsEditor" timestamp="1591603756430">
+    <state x="359" y="0" key="SettingsEditor" timestamp="1591688814095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591603756430" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591628692104">
+    <state x="359" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591688814095" />
+    <state x="429" y="260" key="VCS.EditChangelistDialog" timestamp="1591688465720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591628692104" />
+    <state x="429" y="260" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1591688465720" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591688843642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591688843642" />
     <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591682479893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591682479893" />
+    <state x="483" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591688957884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="483" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1591688957884" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591273279315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
