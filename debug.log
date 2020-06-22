@@ -1,5 +1,0 @@
-[0609/192511.853:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir74492_1629\Crashpad: The system cannot find the file specified. (0x2)
-[0609/193443.223:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir77528_2501\Crashpad: The system cannot find the file specified. (0x2)
-[0609/194221.199:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir74732_11588\Crashpad: The system cannot find the file specified. (0x2)
-[0609/195120.488:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir75180_4000\Crashpad: The system cannot find the file specified. (0x2)
-[0609/195330.349:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SATHEE~1\AppData\Local\Temp\scoped_dir79188_31496\Crashpad: The system cannot find the file specified. (0x2)

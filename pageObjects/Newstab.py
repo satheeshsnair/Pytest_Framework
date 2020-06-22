@@ -21,3 +21,11 @@ class NewsTab(Baseclass):
             log.info("Clicked on Action Tab")
         except Exception as error:
             log.error(error)
+
+    def clickonRecordstab(self):
+        log = self.getLogger()
+        try:
+            self.driver.find_element(*NewsTab.recordstab).click()
+            log.info("Clicked on Records Tab")
+        except Exception as error:
+            log.error(error)

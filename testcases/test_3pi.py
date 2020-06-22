@@ -1,5 +1,6 @@
 import pytest
 
+from pageObjects.Recordstab import RecordsTab
 from utilities.baseclass import Baseclass
 from pageObjects.Actionstab import ActionsTab
 from pageObjects.Financial_Info import Financial_Info
@@ -153,3 +154,26 @@ class TestE2e(Baseclass):
     #         log.info("Order submitting failed")
     #         self.Fail_snaps("Order submitting failed")
     #         assert False
+
+    def test_clickrecordstab(self):
+        log = self.getLogger()
+        newstab = NewsTab(self.driver)
+        newstab.clickonRecordstab()
+        self.waits(3)
+        title = self.driver.title
+        if title == "Records" :
+            assert True
+            log.info("Navigated to records Tab")
+            self.Pass_snaps("records Tab displayed")
+        else :
+            log.info("failed to click on records tab")
+            self.Fail_snaps("records tab not clicked")
+            assert False
+
+    def test_clickorderreq(self):
+        log = self.getLogger()
+        records = RecordsTab(self.driver)
+        records.clickonorderreq()
+        self.waits(2)
+        title = self.driver.title
+        print(title)

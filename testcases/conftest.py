@@ -1,6 +1,7 @@
 import os
 import time
 import subprocess
+from webdriver_manager.chrome import ChromeDriverManager
 
 import pytest
 from selenium import webdriver
@@ -19,7 +20,10 @@ def setup(request):
     global driver
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
-        driver = webdriver.Chrome(executable_path=os.path.abspath("driver\chromedriver.exe"))
+        path = "driver\chromedriver.exe"
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(executable_path=os.path.abspath("driver\chromedriver.exe"))
+        driver = webdriver.Chrome(executable_path="../driver/chromedriver.exe")
     elif browser_name == 'ie':
         driver = webdriver.Ie(executable_path="../driver/IEDriverServer.exe")
 
@@ -28,7 +32,7 @@ def setup(request):
 
     request.cls.driver = driver
 
-    yield
-    time.sleep(2)
-    driver.close()
-    subprocess.call("taskkill /f /IM chromedriver.exe")
+    # yield
+    # time.sleep(2)
+    # driver.close()
+    # subprocess.call("taskkill /f /IM chromedriver.exe")
